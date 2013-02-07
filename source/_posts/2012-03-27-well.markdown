@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Well, hello there"
+date: 2012-03-27 14:59
+comments: false
+categories: meta
+sharing: true
+footer: true
+---
+This is my first post. I will blog about stuff. Beware of feminist rage and outbursts of violent equality speeches.
