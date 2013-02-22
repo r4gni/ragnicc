@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://ragni.cc
+url: http://r4gni.github.com
 title: "Hi, I am Ragni"
 subtitle: Nothing to see here...
 author: r4gni
@@ -97,3 +97,14 @@ disqus_show_comment_count: true
 
 # Facebook Like
 facebook_like: false
+
+#prose.io settings
+prose:
+  rooturl: "source"
+  metadata:
+    "source/_posts": |
+      layout: post
+      title: "Title"
+      comments: true
+      categories: 
+      published: true
