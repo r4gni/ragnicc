@@ -34,7 +34,7 @@ Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming 
 
 
 
-{% codeblock Wordpress-Plug-in Hermits United lang:php https://github.com/r4gni/Hermits-United/blob/master/hermitsunited.php Hermits United@github %}
+{% codeblock Wordpress-Plug-in HermitsUnited.php https://github.com/r4gni/Hermits-United/blob/master/hermitsunited.php Hermits United@github %}
 function hello_doctor() {
 $chosen = hello_doctor_get_lyric();
 echo "<p id='quote'>$chosen</p>";
