@@ -16,19 +16,13 @@ the text you want to pull, {" surround it like this "} and that's all there is t
 {% endpullquote %}
 Here’s a more realistic example of how you might use a pull quote. 
 
-{% codeblock Super oder langweilig lang:ruby http://ruby-lang.org Ruby Documentation %}
-puts "Super!" unless lame
+{% codeblock Wordpress-Plug-in Hermits United lang:php https://github.com/r4gni/Hermits-United/blob/master/hermitsunited.php Hermits United@github %}
+function hello_doctor() {
+$chosen = hello_doctor_get_lyric();
+echo "<p id='quote'>$chosen</p>";
+echo "<p id='doctor'>Dr Who<p>";
+}
 {% endcodeblock %}
-
-{% gist 5038137 lang:java %}
-
-``` ruby Discover if a number is prime http://www.noulakaz.net/weblog/2007/03/18/a-regular-expression-to-check-for-prime-numbers/ Source Article
-class Fixnum
-  def prime?
-    ('1' * self) !~ /^1?$|^(11+?)\1+$/
-  end
-end
-```
 
 When writing longform posts, I find it helpful to include pull quotes to help readers easily identify the topics covered in each section. Some prefer to break things up with lots of headings, and while this seems to be a trend it doesn’t work so well for long form prose. It is important to note that pull quotes are merely visual in presentation and should not appear twice in the text. That is why it a CSS only technique for styling pull quotes is preferable. Octopress includes a handy pull quote plugin to make this easy for you.
 
