@@ -6,15 +6,33 @@ comments: true
 sharing: true
 categories: 
 ---
-Octopress offers a CSS only technique for pull quotes, based on the technique by Maykel Loomans.
 
-Syntax
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
 
 {% pullquote %}
-Surround your paragraph with the pull quote tags. Then when you come to
-the text you want to pull, {" surround it like this "} and that's all there is to it.
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. {'At vero eos et accusam et justo duo dolores'} et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
 {% endpullquote %}
-Here’s a more realistic example of how you might use a pull quote. 
+
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.   
+
+{% codeblock Wordpress-Plug-in Hermits United lang:php https://github.com/r4gni/Hermits-United/blob/master/hermitsunited.php Hermits United@github %}
+function hello_doctor() {
+$chosen = hello_doctor_get_lyric();
+echo "<p id='quote'>$chosen</p>";
+echo "<p id='doctor'>Dr Who<p>";
+}
+{% endcodeblock %}
+
+Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.   
+
+{% blockquote Lorem Ipsum, https://lorem.de Lorem Generator %}
+Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer
+{% endblockquote %}
+
+
+
+
+
 
 {% codeblock Wordpress-Plug-in Hermits United lang:php https://github.com/r4gni/Hermits-United/blob/master/hermitsunited.php Hermits United@github %}
 function hello_doctor() {
@@ -28,6 +46,3 @@ When writing longform posts, I find it helpful to include pull quotes to help re
 
 Inspect the source and you’ll see the pulled content appears in the data-pullquote attribute of the paragraph. The pull quote effect is created entirely with CSS, and is supported by all modern browsers as well as IE8 and up.
 
-{% blockquote @r4gni, https://twitter.com/r4gni/status/304935411866800128 r4gni@twitter.com %}
-All out of poker face.
-{% endblockquote %}
