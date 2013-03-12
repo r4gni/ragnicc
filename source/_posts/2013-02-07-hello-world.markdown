@@ -7,7 +7,7 @@ sharing: true
 categories: 
 ---
 
-{% img right http://ragni.cc/images/stiftundkeyboard.png 'Titeltexthier 'Alt Text hier' ' %} 
+{% img right http://ragni.cc/images/stiftundkeyboard.png 'Titeltexthier' 'Alt Text hier' %} 
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
 
